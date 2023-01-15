@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #c5e0b4">
+    <!-- <iframe width=100% height=460px src="https://script.google.com/macros/s/AKfycbyDbEr9wzdYEcqpRa-NrRVU5NHwAbakGpayh90LMnFietcz-9ctSoVW470AIDqvrnUB/exec"></iframe> -->
+
+    <div>
+      <div style="position: relative; padding-top: 40.25%">
+        <iframe
+          src="https://script.google.com/a/macros/mutahed.com/s/AKfycbwOFapxjy5eHqXIs6HkNwm56o0-nB3YO5fw1T5NMfRf931GWd5vvKMeZi5YJSxJE0s/exec"
+          frameborder="0"
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        ></iframe>
+      </div>
+    </div>
+    <div style="margin-left: auto; margin-right: auto; width: 100%; margin-left: 35%;">
+      <input
+        type="button"
+        value="رجوع"
+        onclick="back()"
+        style="
+          display: block;
+          border: 0ch;
+          height: 30px;
+          width: 15%;
+          background-color: #165029;
+          color: white;
+          display: inline-block;
+          margin-right: 3%;
+        "
+      />
+      <input
+        type="button"
+        value="تنزيل"
+        onclick="download()"
+        style="
+          display: block;
+
+          border: 0ch;
+          height: 30px;
+          width: 15%;
+          background-color: #165029;
+          color: white;
+          display: inline-block;
+        "
+      />
+    </div>
+  </body>
+  <script>
+    function back() {
+      history.back();
+    }
+    function download(){
+      window.open('https://docs.google.com/spreadsheets/u/2/d/1ozYQNsEKw8DDEK-K1JrzWi7DJFKJITYeqH5g3yk9SUQ/export?format=xlsx&id=1ozYQNsEKw8DDEK-K1JrzWi7DJFKJITYeqH5g3yk9SUQ');
+    }
+  </script>
+</html>

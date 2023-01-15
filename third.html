@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="jotform-embed"
+      style="min-height: 1px"
+      data-id="23010392634604611"
+      data-type="interactive"
+      data-iframesource="www.jotform.com"
+    ></div>
+    <script>
+      (function (doc, id) {
+        var scripts = doc.getElementsByTagName("script")[0];
+        if (!doc.getElementById(id)) {
+          var script = doc.createElement("script");
+          script.async = 1;
+          script.id = id;
+          script.src = "https://cdn.jotfor.ms/s/umd/latest/for-report-embed.js";
+          scripts.parentNode.insertBefore(script, scripts);
+        }
+      })(document, "jotform-async");
+    </script>
+          <input type="button" value="رجوع" onclick="back()" style="  display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border: 0ch;
+          height: 30px;
+          width: 15%;
+          background-color: #165029;
+          color: white;
+          "/> 
+  </body>
+  <script>
+        function back() {
+      history.back();
+    }
+  </script>
+</html>
